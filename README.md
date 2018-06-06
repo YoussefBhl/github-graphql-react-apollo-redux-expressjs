@@ -12,4 +12,7 @@
 #### 2.3 navigate tp http://127.0.0.1:8080
 
 ## 3. Code Structure:
-![alt text]('screenshots/code_structure.png')
+![alt text](screenshots/code_structure.png)
+
+#### The express code is contained in 'back', react code contained in client.
+
