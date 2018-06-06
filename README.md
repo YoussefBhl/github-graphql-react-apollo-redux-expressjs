@@ -1,6 +1,6 @@
 # github-graphql-react-apollo-redux-expressjs
 
-### It's a mini platform that allow users to login using github account. After a successful login, the user can list his repositroies. Once the user choose the repository he can explore its contents, start/unstar it and watch/unwatch it.
+### It's a mini platform that allow users to login using github account. After a successful login, the user can list his repositories. Once the user choose the repository he can explore its contents, start/unstar it and watch/unwatch it.
 
 ## 1. technologies
 #### Backend side (we need it for login to send the token to client): nodejs, expressjs 
@@ -14,5 +14,24 @@
 ## 3. Code Structure:
 ![alt text](screenshots/code_structure.png)
 
-#### The express code is contained in 'back', react code contained in client.
+#### The express code is contained in 'back', 
+#### react code contained in client:
+
+## 4. Results:
+### 4.1 Login page:
+
+![alt text](screenshots/login.png)
+#### After a successful authentication the user redirected to home.
+
+### 4.1 Home page:
+
+![alt text](screenshots/home.png)
+
+#### it contains user info+img. the user choose the repository to explore.
+
+### 4.1 Repository page:
+
+![alt text](screenshots/repo.png)
+
+#### user can explore the repository contents, start/unstar it and watch/unwatch it.
 
